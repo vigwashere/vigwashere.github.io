@@ -1,2 +1,2 @@
 # BismuthLearning
-A cool games site about learning.
+Learn stuff here!!11!!
