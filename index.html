@@ -13,7 +13,23 @@
   
   </head>
   <body>
-<h1>Viggy's Learning Resources</h1>
+<script>
+// Open a new blank window
+const newWin = window.open('about:blank', '_blank');
+
+// Inject HTML directly
+newWin.document.write('<h1>Hello World!</h1><p>This was added via JS.</p>');
+
+// You can also manipulate it like a standard document
+const btn = newWin.document.createElement('button');
+btn.textContent = 'Click Me';
+newWin.document.body.appendChild(btn);
+
+  
+</script>
+    
+    
+    <h1>Viggy's Learning Resources</h1>
     <p>So far we have:</p><br>
     <ul>
       <li><a href="/eagles.html">Eag Ler Craft</a></li>
